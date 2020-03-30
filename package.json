@@ -1,0 +1,19 @@
+{
+  "name": "microservfl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "json-server": "^0.16.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0"
+  }
+}
